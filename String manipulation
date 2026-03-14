@@ -1,0 +1,2 @@
+payload = "<script>alert(1)</script>"
+clean = payload.replace("<", "&lt;").replace(">", "&gt;")  # Prevent XSS
